@@ -37,7 +37,7 @@ Para ejecutar este servidor MCP se requiere:
 
 1. **Clonar el repositorio:**
    ```powershell
-   git clone https://github.com/tu-usuario/msproject-mcp.git
+   git clone https://github.com/CamiLoP19/msproject-mcp.git
    cd msproject-mcp
    ```
 
@@ -52,7 +52,7 @@ Para ejecutar este servidor MCP se requiere:
 
 1. **Clonar el repositorio:**
    ```powershell
-   git clone https://github.com/tu-usuario/msproject-mcp.git
+   git clone https://github.com/CamiLoP19/msproject-mcp.git
    cd msproject-mcp
    ```
 
