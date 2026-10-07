@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "msproject": {
+      "command": "python",
+      "args": ["-m", "msproject_mcp"],
+      "env": {
+        "MSPROJECT_VISIBLE": "1",
+        "MSPROJECT_TIMEOUT": "90"
+      }
+    }
+  }
+}

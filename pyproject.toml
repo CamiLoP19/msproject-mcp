@@ -1,0 +1,21 @@
+[project]
+name = "msproject-mcp"
+version = "0.1.0"
+description = "Model Context Protocol (MCP) server for Microsoft Project desktop via COM automation"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Janer Camilo Pacheco", email = "janercpacheco@unicesar.edu.co" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "pywin32>=306",
+]
+
+[project.scripts]
+msproject-mcp = "msproject_mcp:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"

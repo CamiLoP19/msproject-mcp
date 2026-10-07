@@ -1,0 +1,29 @@
+# Python cache and build
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+wheels/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Microsoft Project binary files
+*.mpp
+*.mpd
+*.mpt
+
+# Local agent / IDE configs
+.agents/
+.cursor/
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
